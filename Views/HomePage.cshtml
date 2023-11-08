@@ -4,3 +4,36 @@
 @{
 	Layout = null;
 }
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta content="IE=edge,chrome=1' http-equiv='X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title></title>
+		<!--css here-->
+	<style>
+		body {
+			color:@(Model.Colors);
+		}
+	</style>
+		<!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
+</head>
+
+<body>
+	@if (Model.Image != null && !Model.HideImage)
+	{
+		<img style="width: 5%; max-height: 5%;" src="@(Model.Image.Url())" alt="Yarn" />
+	}
+	<h1>@Model.Name</h1>
+	<h2>@Model.Title</h2>
+
+	@Model.BodyText
+</body>
+
+</html>
+
+
