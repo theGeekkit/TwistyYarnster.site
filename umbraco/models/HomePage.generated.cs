@@ -58,37 +58,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string FooterText => global::Umbraco.Cms.Web.Common.PublishedModels.FooterProperties.GetFooterText(this, _publishedValueFallback);
 
 		///<summary>
-		/// Body Text
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.3.1+80fac86")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("bodyText")]
-		public virtual global::Umbraco.Cms.Core.Strings.IHtmlEncodedString BodyText => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetBodyText(this, _publishedValueFallback);
-
-		///<summary>
-		/// Colors
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.3.1+80fac86")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("colors")]
-		public virtual string Colors => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetColors(this, _publishedValueFallback);
-
-		///<summary>
-		/// Hide Image: do you want to hide the image
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.3.1+80fac86")]
-		[ImplementPropertyType("hideImage")]
-		public virtual bool HideImage => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetHideImage(this, _publishedValueFallback);
-
-		///<summary>
-		/// Image
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.3.1+80fac86")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("image")]
-		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Image => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetImage(this, _publishedValueFallback);
-
-		///<summary>
 		/// Title: Enter a title for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.3.1+80fac86")]
