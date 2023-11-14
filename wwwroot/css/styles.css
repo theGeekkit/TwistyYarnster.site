@@ -10796,3 +10796,7 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+.hamburger-icon {
+  max-height: 35px;
+  max-width: 35px;
+}
