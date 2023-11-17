@@ -2,12 +2,9 @@
 
     @{
         var row = (ImageRow)Model.Content;
-        if(row.Image == null) return;
         var settings = (ImageRowSettings)Model.Settings;
         if(settings?.Hide ?? false)
-        {
-            return;
-        }
+        if(row.Image == null) return;
     }
 
 <div class="row gx-4 gx-lg-5 justify-content-center">
