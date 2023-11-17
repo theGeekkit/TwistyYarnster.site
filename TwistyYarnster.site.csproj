@@ -11,6 +11,7 @@
     <PackageReference Include="Umbraco.Forms" Version="12.1.1" />
     <PackageReference Include="uSync" Version="12.2.2" />
     <PackageReference Include="uSync.Complete" Version="12.2.1.1" />
+    <PackageReference Include="Vendr" Version="3.0.15" />
   </ItemGroup>
 
   <ItemGroup>
